@@ -1,0 +1,265 @@
+{
+  "mappings": [
+    {
+      "name": "historical_prices_base",
+      "request": {
+        "url": "/stock/AAPL/chart?token=pk_b13d22c163814587aee834dbc8a768e9",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "jsonBody": [
+          {
+            "close": 140.36,
+            "high": 141.97,
+            "low": 137.33,
+            "open": 140.805,
+            "symbol": "AAPL",
+            "volume": 104132746,
+            "date": "2022-05-24"
+          },
+          {
+            "close": 140.52,
+            "high": 141.785,
+            "low": 138.34,
+            "open": 138.43,
+            "symbol": "AAPL",
+            "volume": 92482696,
+            "date": "2022-05-25"
+          },
+          {
+            "close": 143.78,
+            "high": 144.34,
+            "low": 137.14,
+            "open": 137.39,
+            "symbol": "AAPL",
+            "volume": 90601548,
+            "date": "2022-05-26"
+          }
+        ],
+        "headers": {
+          "Server": "nginx",
+          "Date": "Thu, 08 Aug 2019 14:14:08 GMT",
+          "Content-Type": "application/json; charset=utf-8",
+          "Connection": "keep-alive",
+          "set-cookie": "ctoken=4decd1e639244d498ef3bacaae5238bc; Domain=.iextrading.com; Path=/; Expires=Fri, 09 Aug 2019 02:14:08 GMT; Secure",
+          "Content-Security-Policy": "default-src 'self'; child-src 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; frame-src 'self'; connect-src 'self' https://auth.iextrading.com https://api.iextrading.com https://api.iextrading.com wss://iextrading.com wss://tops.iextrading.com wss://api.iextrading.com wss://iextrading.com https://iextrading.com/member-center; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com/analytics.js;",
+          "X-Content-Security-Policy": "default-src 'self'; child-src 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; frame-src 'self'; connect-src 'self' https://auth.iextrading.com https://api.iextrading.com https://api.iextrading.com wss://iextrading.com wss://tops.iextrading.com wss://api.iextrading.com wss://iextrading.com https://iextrading.com/member-center; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com/analytics.js;",
+          "Frame-Options": "SAMEORIGIN",
+          "X-Frame-Options": "SAMEORIGIN",
+          "X-Content-Type-Options": "nosniff",
+          "Strict-Transport-Security": "max-age=15768000",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Credentials": "true",
+          "Access-Control-Allow-Methods": "GET, OPTIONS",
+          "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
+        }
+      },
+      "persistent": true
+    },
+    {
+      "name": "historical_prices_date",
+      "request": {
+        "url": "/stock/AAPL/chart/20220104?token=pk_b13d22c163814587aee834dbc8a768e9",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "jsonBody": [
+          {
+            "date": "2022-01-04",
+            "symbol": "AAPL",
+            "high": 182.88,
+            "low": 182.3,
+            "volume": 51459,
+            "open": 182.655,
+            "close": 182.53
+          },
+          {
+            "date": "2022-01-04",
+            "symbol": "AAPL",
+            "high": 182.66,
+            "low": 182,
+            "volume": 19473,
+            "open": 182.66,
+            "close": 182.04
+          },
+          {
+            "date": "2022-01-04",
+            "symbol": "AAPL",
+            "high": 182.21,
+            "low": 181.93,
+            "volume": 9688,
+            "open": 182.03,
+            "close": 181.93
+          },
+          {
+            "date": "2022-01-04",
+            "symbol": "AAPL",
+            "high": 182.07,
+            "low": 181.72,
+            "volume": 16268,
+            "open": 181.92,
+            "close": 181.88
+          }
+        ],
+        "headers": {
+          "Server": "nginx",
+          "Date": "Thu, 08 Aug 2019 14:14:08 GMT",
+          "Content-Type": "application/json; charset=utf-8",
+          "Connection": "keep-alive",
+          "set-cookie": "ctoken=4decd1e639244d498ef3bacaae5238bc; Domain=.iextrading.com; Path=/; Expires=Fri, 09 Aug 2019 02:14:08 GMT; Secure",
+          "Content-Security-Policy": "default-src 'self'; child-src 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; frame-src 'self'; connect-src 'self' https://auth.iextrading.com https://api.iextrading.com https://api.iextrading.com wss://iextrading.com wss://tops.iextrading.com wss://api.iextrading.com wss://iextrading.com https://iextrading.com/member-center; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com/analytics.js;",
+          "X-Content-Security-Policy": "default-src 'self'; child-src 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; frame-src 'self'; connect-src 'self' https://auth.iextrading.com https://api.iextrading.com https://api.iextrading.com wss://iextrading.com wss://tops.iextrading.com wss://api.iextrading.com wss://iextrading.com https://iextrading.com/member-center; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com/analytics.js;",
+          "Frame-Options": "SAMEORIGIN",
+          "X-Frame-Options": "SAMEORIGIN",
+          "X-Content-Type-Options": "nosniff",
+          "Strict-Transport-Security": "max-age=15768000",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Credentials": "true",
+          "Access-Control-Allow-Methods": "GET, OPTIONS",
+          "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
+        }
+      },
+      "persistent": true
+    },
+    {
+      "name": "historical_prices_range",
+      "request": {
+        "url": "/stock/AAPL/chart/6m?token=pk_b13d22c163814587aee834dbc8a768e9",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "jsonBody": [
+          {
+            "close": 180.33,
+            "high": 180.42,
+            "low": 177.07,
+            "open": 177.085,
+            "symbol": "AAPL",
+            "volume": 74919582,
+            "date": "2021-12-27"
+          },
+          {
+            "close": 179.29,
+            "high": 181.33,
+            "low": 178.53,
+            "open": 180.16,
+            "symbol": "AAPL",
+            "volume": 79144339,
+            "date": "2021-12-28"
+          },
+          {
+            "close": 179.38,
+            "high": 180.63,
+            "low": 178.14,
+            "open": 179.33,
+            "symbol": "AAPL",
+            "volume": 62348931,
+            "date": "2021-12-29"
+          },
+          {
+            "close": 178.2,
+            "high": 180.57,
+            "low": 178.09,
+            "open": 179.47,
+            "symbol": "AAPL",
+            "volume": 59773014,
+            "date": "2021-12-30"
+          }
+        ],
+        "headers": {
+          "Server": "nginx",
+          "Date": "Thu, 08 Aug 2019 14:14:08 GMT",
+          "Content-Type": "application/json; charset=utf-8",
+          "Connection": "keep-alive",
+          "set-cookie": "ctoken=4decd1e639244d498ef3bacaae5238bc; Domain=.iextrading.com; Path=/; Expires=Fri, 09 Aug 2019 02:14:08 GMT; Secure",
+          "Content-Security-Policy": "default-src 'self'; child-src 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; frame-src 'self'; connect-src 'self' https://auth.iextrading.com https://api.iextrading.com https://api.iextrading.com wss://iextrading.com wss://tops.iextrading.com wss://api.iextrading.com wss://iextrading.com https://iextrading.com/member-center; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com/analytics.js;",
+          "X-Content-Security-Policy": "default-src 'self'; child-src 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; frame-src 'self'; connect-src 'self' https://auth.iextrading.com https://api.iextrading.com https://api.iextrading.com wss://iextrading.com wss://tops.iextrading.com wss://api.iextrading.com wss://iextrading.com https://iextrading.com/member-center; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com/analytics.js;",
+          "Frame-Options": "SAMEORIGIN",
+          "X-Frame-Options": "SAMEORIGIN",
+          "X-Content-Type-Options": "nosniff",
+          "Strict-Transport-Security": "max-age=15768000",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Credentials": "true",
+          "Access-Control-Allow-Methods": "GET, OPTIONS",
+          "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
+        }
+      },
+      "persistent": true
+    },
+    {
+      "name": "historical_prices_no_symbol",
+      "request": {
+        "url": "/stock/chart/6m/?token=abc",
+        "method": "GET"
+      },
+      "response": {
+        "status": 400,
+        "jsonBody": [
+          {
+            "timestamp": 1656337470650,
+            "error": "Bad Request",
+            "message": "Required String parameter 'symbol' is not present",
+            "path": "/iex/historicalPrice"
+          }
+        ],
+        "headers": {
+          "Server": "nginx",
+          "Date": "Thu, 08 Aug 2019 14:14:08 GMT",
+          "Content-Type": "application/json; charset=utf-8",
+          "Connection": "keep-alive",
+          "set-cookie": "ctoken=4decd1e639244d498ef3bacaae5238bc; Domain=.iextrading.com; Path=/; Expires=Fri, 09 Aug 2019 02:14:08 GMT; Secure",
+          "Content-Security-Policy": "default-src 'self'; child-src 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; frame-src 'self'; connect-src 'self' https://auth.iextrading.com https://api.iextrading.com https://api.iextrading.com wss://iextrading.com wss://tops.iextrading.com wss://api.iextrading.com wss://iextrading.com https://iextrading.com/member-center; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com/analytics.js;",
+          "X-Content-Security-Policy": "default-src 'self'; child-src 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; frame-src 'self'; connect-src 'self' https://auth.iextrading.com https://api.iextrading.com https://api.iextrading.com wss://iextrading.com wss://tops.iextrading.com wss://api.iextrading.com wss://iextrading.com https://iextrading.com/member-center; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com/analytics.js;",
+          "Frame-Options": "SAMEORIGIN",
+          "X-Frame-Options": "SAMEORIGIN",
+          "X-Content-Type-Options": "nosniff",
+          "Strict-Transport-Security": "max-age=15768000",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Credentials": "true",
+          "Access-Control-Allow-Methods": "GET, OPTIONS",
+          "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
+        }
+      },
+      "persistent": true
+    },
+    {
+      "name": "historical_prices_invalid_symbol",
+      "request": {
+        "url": "/stock/invalid/chart//?token=abc",
+        "method": "GET"
+      },
+      "response": {
+        "status": 500,
+        "jsonBody": [
+          {
+            "timestamp": 1656337741986,
+            "error": "Internal Server Error",
+            "message": "org.springframework.web.util.NestedServletException: Request processing failed; nested exception is feign.FeignException: status 404 reading IexClient#getHistoricalPriceForSymbol(String,String,String,String); content:\nUnknown symbol",
+            "path": "/iex/historicalPrice"
+          }
+        ],
+        "headers": {
+          "Server": "nginx",
+          "Date": "Thu, 08 Aug 2019 14:14:08 GMT",
+          "Content-Type": "application/json; charset=utf-8",
+          "Connection": "keep-alive",
+          "set-cookie": "ctoken=4decd1e639244d498ef3bacaae5238bc; Domain=.iextrading.com; Path=/; Expires=Fri, 09 Aug 2019 02:14:08 GMT; Secure",
+          "Content-Security-Policy": "default-src 'self'; child-src 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; frame-src 'self'; connect-src 'self' https://auth.iextrading.com https://api.iextrading.com https://api.iextrading.com wss://iextrading.com wss://tops.iextrading.com wss://api.iextrading.com wss://iextrading.com https://iextrading.com/member-center; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com/analytics.js;",
+          "X-Content-Security-Policy": "default-src 'self'; child-src 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; font-src data:; frame-src 'self'; connect-src 'self' https://auth.iextrading.com https://api.iextrading.com https://api.iextrading.com wss://iextrading.com wss://tops.iextrading.com wss://api.iextrading.com wss://iextrading.com https://iextrading.com/member-center; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com/analytics.js;",
+          "Frame-Options": "SAMEORIGIN",
+          "X-Frame-Options": "SAMEORIGIN",
+          "X-Content-Type-Options": "nosniff",
+          "Strict-Transport-Security": "max-age=15768000",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Credentials": "true",
+          "Access-Control-Allow-Methods": "GET, OPTIONS",
+          "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
+        }
+      },
+      "persistent": true
+    }
+  ]
+}

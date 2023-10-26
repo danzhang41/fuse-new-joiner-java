@@ -2,7 +2,7 @@
   "id" : "16369e06-78d4-40a7-98d1-3dbe0ba82fc9",
   "name" : "tops_last",
   "request" : {
-    "url" : "/tops/last?symbols=FB",
+    "url" : "/tops/last?symbols=FB&token=pk_b13d22c163814587aee834dbc8a768e9",
     "method" : "GET"
   },
   "response" : {
